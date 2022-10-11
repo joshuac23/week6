@@ -12,6 +12,7 @@ h2 + p {
     list-style-type: none;
 } */
 
+/* Activity 2:
 ul  a:link{
     color: green;
 }
@@ -25,8 +26,20 @@ ul a:hover {
 }
 
 li:first-child::first-letter {
-    font-style: bold;
+    font-weight: bold;
     font-size: 120%;
 }
 
+a[title~="BCIT"] {
+    background-color: yellow;
+}
 
+ */
+
+img {
+    float: left;
+}
+
+.below {
+    clear: left;
+}
